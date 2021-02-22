@@ -4,6 +4,13 @@ public class Employee {
     private String password;
     private String email;
 
+    /**
+     * This is the default constructor for the Employee class
+     *
+     * @param username is taken for the user's username
+     * @param password is taken for the user's password
+     * @param email is taken for the user's email address
+     */
     public Employee(String username, String password, String email) {
         this.username = username;
         this.password = password;
